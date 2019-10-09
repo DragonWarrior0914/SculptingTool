@@ -1,0 +1,353 @@
+// Reset css
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit {
+    size: 100%;
+  };
+  vertical-align: baseline;
+}
+
+sub,
+sup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit {
+    size: 100%;
+  };
+}
+
+// HTML5 display-role reset for older browsers
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+
+  &::before,
+  &::after {
+    content: '';
+    content: none;
+  }
+}
+
+table {
+  border: {
+    collapse: collapse;
+    spacing: 0;
+  };
+}
+
+a,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
+
+// fix for safari -----
+
+input[type='search'] {
+  -webkit-appearance: textfield;
+}
+
+* {
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+// Icomoon css
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon/icomoon.eot?bsqdnt');
+  src:  url('/fonts/icomoon/icomoon.eot?bsqdnt#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon/icomoon.ttf?bsqdnt') format('truetype'),
+    url('/fonts/icomoon/icomoon.woff?bsqdnt') format('woff'),
+    url('/fonts/icomoon/icomoon.svg?bsqdnt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lipo:before {
+  content: "\e900";
+}
+.icon-clone:before {
+  content: "\e901";
+}
+.icon-smooth:before {
+  content: "\e902";
+}
+.icon-wrinkle:before {
+  content: "\e903";
+}
+.icon-fill:before {
+  content: "\e904";
+}
+.icon-resureface:before {
+  content: "\e905";
+}
+.icon-arrow-down:before {
+  content: "\e906";
+}
+.icon-arrow-down-thin:before {
+  content: "\e907";
+}
+.icon-arrow-up-thin:before {
+  content: "\e908";
+}
+.icon-arrow-up:before {
+  content: "\e909";
+}
+.icon-location:before {
+  content: "\e90a";
+}
+.icon-redo:before {
+  content: "\e90b";
+}
+.icon-undo:before {
+  content: "\e90c";
+}
+.icon-refresh:before {
+  content: "\e90d";
+}
+.icon-zoom-in:before {
+  content: "\e90e";
+}
+.icon-zoom-out:before {
+  content: "\e90f";
+}
+.icon-nose-10:before {
+  content: "\e910";
+}
+.icon-cursor:before {
+  content: "\e911";
+}
+.icon-nose-5:before {
+  content: "\e912";
+}
+.icon-edit:before {
+  content: "\e913";
+}
+.icon-nose-4:before {
+  content: "\e914";
+}
+.icon-nose-13:before {
+  content: "\e915";
+}
+.icon-nose-7:before {
+  content: "\e916";
+}
+.icon-nose-9:before {
+  content: "\e917";
+}
+.icon-nose-3:before {
+  content: "\e918";
+}
+.icon-landmark:before {
+  content: "\e919";
+}
+.icon-nose-12:before {
+  content: "\e91a";
+}
+.icon-nose-6:before {
+  content: "\e91b";
+}
+.icon-nose-8:before {
+  content: "\e91c";
+}
+.icon-nose-2:before {
+  content: "\e91d";
+}
+.icon-nose-1:before {
+  content: "\e91e";
+}
+.icon-trim:before {
+  content: "\e91f";
+}
+.icon-measure:before {
+  content: "\e920";
+}
+.icon-contoure:before {
+  content: "\e921";
+}
+.icon-nose-11:before {
+  content: "\e922";
+}
+.icon-paintbrush:before {
+  content: "\e92b";
+}
+.icon-free-hand:before {
+  content: "\e923";
+}
+.icon-add-photo:before {
+  content: "\e924";
+}
+
+// Mixins
+
+@mixin webkit-scrollbar($property, $width: 6px) {
+
+  &::-webkit-scrollbar {
+    width: $width;
+  }
+
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    -webkit-border-radius: .6rem;
+    border-radius: .6rem;
+    -webkit-box-shadow: none;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    -webkit-border-radius: .6rem;
+    border-radius: .6rem;
+    background: $property;
+    box-shadow: none;
+  }
+
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: $property;
+  }
+}
