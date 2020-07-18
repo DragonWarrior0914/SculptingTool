@@ -75,7 +75,7 @@
     "icomoon-build": "^0.2.8",
     "immutability-helper": "^2.6.4",
     "js-cookie": "^2.2.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "moment": "^2.20.1",
     "nanoid": "^2.0.3",
     "prop-types": "^15.6.0",
